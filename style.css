@@ -17,6 +17,7 @@
     flex-direction: row;
     height: 11%;
     width: 100%;
+    background-color: #1A1A1A;
 }
 
 .header-nav__list {
@@ -38,7 +39,7 @@
 .header-item-text {
     position: relative;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -60,6 +61,7 @@
 .page {
     width: 980px;
     height: 1600px;
+    background-color: #313a38;
 }
 
 .slider {
@@ -73,52 +75,6 @@
 
 .slider .content .page {
     float: left;
-}
-
-.circle-page-1 {
-    background: linear-gradient(11deg, rgb(253, 145, 79) 5%, rgb(224, 50, 152));
-}
-
-.circle-page-2 {
-    background: linear-gradient(rgba(41, 110, 215, 1), rgba(36, 99, 202, 1));
-}
-
-.circle {
-    position: relative;
-    width: 10vh;
-    height: 10vh;
-    margin: 10px;
-    border-radius: 50%;
-}
-
-.circle-one {
-    top: 40px;
-    left: 125px;
-    width: 160px;
-    height: 160px;
-}
-
-.circle-two {
-    top: -25px;
-    left: 10px;
-    width: 136px;
-    height: 136px;
-}
-
-.circle-three {
-    position: relative;
-    top: -100px;
-    left: 150px;
-    width: 150px;
-    height: 150px;
-}
-
-.circle-four {
-    position: relative;
-    top: -185px;
-    left: 60px;
-    width: 80px;
-    height: 80px;
 }
 
 body {
