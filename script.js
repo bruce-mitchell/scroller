@@ -8,6 +8,9 @@
     this.content = slider.children().first();
     this.currentIndex = 0;
     this.pages = this.content.children();
+    this.pages.each((index, page) => {
+      page.style.width = window.innerWidth;
+    });
     this.slider.width(this.pages.first().width());
 
     let totalWidth = 0;
